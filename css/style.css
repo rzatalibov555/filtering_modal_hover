@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.kv{
+    width: 200px;
+    height: 200px;
+    background: red;
+    float: left;
+    position: relative;
+}
+
+.tul{
+    width: 200px;
+    height: 200px;
+    background: rgba(231, 21, 130, 0);
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: transparent;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -ms-transition: 0.25s;
+    -o-transition: 0.25s;
+    cursor: pointer;
+}
+
+
+.tul:hover{
+    background: rgba(231, 21, 130, 0.5);
+    color: white;
+}
+
+.kv img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+#preloader{
+    width: 100%;
+    height: 100vh;
+    background: #1991EC url('https://cdn.dribbble.com/users/10743/screenshots/2098959/ezgif.com-crop.gif') no-repeat center center;
+    background-size: 10%;
+    float: left;
+    position: fixed;
+    z-index: 100;
+}
